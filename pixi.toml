@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Noah Jutz <noah@noahjutz.com>"]
+channels = ["conda-forge", "robostack-humble"]
+name = "3_cyberrunner"
+platforms = ["linux-64"]
+version = "0.1.0"
+preview = ["pixi-build"]
+
+[tasks]
+
+[dependencies]
+ros-humble-ros2run = ">=0.18.12,<0.19"
+cyberrunner_interfaces = { path = "src/cyberrunner_interfaces:" }
