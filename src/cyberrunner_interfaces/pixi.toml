@@ -1,3 +1,6 @@
+[package]
+name = "cyberrunner_interfaces"
+
 [package.build.backend]
 channels = [
   "https://prefix.dev/pixi-build-backends",
