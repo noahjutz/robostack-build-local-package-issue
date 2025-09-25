@@ -10,4 +10,9 @@ preview = ["pixi-build"]
 
 [dependencies]
 ros-humble-ros2run = ">=0.18.12,<0.19"
-cyberrunner_interfaces = { path = "src/cyberrunner_interfaces" }
+ros-humble-rclpy = ">=3.3.16,<4"
+ros-humble-cyberrunner-interfaces = { path = "src/cyberrunner_interfaces" }
+ros-humble-cyberrunner-camera = { path = "src/cyberrunner_camera" }
+ros-humble-cyberrunner-dynamixel = { path = "src/cyberrunner_dynamixel" }
+ros-humble-cyberrunner-state-estimation = { path = "src/cyberrunner_state_estimation" }
+ros-humble-cyberrunner-dreamer = { path = "src/cyberrunner_dreamer" }

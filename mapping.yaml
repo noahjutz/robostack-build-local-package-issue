@@ -1,0 +1,2 @@
+cyberrunner_interfaces:
+  ros: ["cyberrunner_interfaces"]
